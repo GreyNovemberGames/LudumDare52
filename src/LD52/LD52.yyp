@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.6",
-  "name": "LudumDare52",
+  "name": "LD52",
   "resources": [
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -12,7 +12,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "isEcma": false,
   "configs": {
     "name": "Default",
