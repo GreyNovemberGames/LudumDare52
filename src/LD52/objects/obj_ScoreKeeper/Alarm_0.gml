@@ -1,0 +1,1 @@
+food_spawn_cd = 0;
