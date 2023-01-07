@@ -3,8 +3,9 @@
   "resourceVersion": "1.6",
   "name": "LD52",
   "resources": [
+    {"id":{"name":"spr_Door2","path":"sprites/spr_Door2/spr_Door2.yy",},"order":14,},
     {"id":{"name":"ts_Tiles","path":"tilesets/ts_Tiles/ts_Tiles.yy",},"order":0,},
-    {"id":{"name":"obj_Door","path":"objects/obj_Door/obj_Door.yy",},"order":3,},
+    {"id":{"name":"obj_Door1","path":"objects/obj_Door1/obj_Door1.yy",},"order":3,},
     {"id":{"name":"spr_ColdLose","path":"sprites/spr_ColdLose/spr_ColdLose.yy",},"order":12,},
     {"id":{"name":"spr_PickupIcon","path":"sprites/spr_PickupIcon/spr_PickupIcon.yy",},"order":6,},
     {"id":{"name":"obj_SunWin","path":"objects/obj_SunWin/obj_SunWin.yy",},"order":13,},
@@ -16,6 +17,7 @@
     {"id":{"name":"sfx_Win","path":"sounds/sfx_Win/sfx_Win.yy",},"order":7,},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":0,},
     {"id":{"name":"spr_Door","path":"sprites/spr_Door/spr_Door.yy",},"order":10,},
+    {"id":{"name":"spr_PlayerUp","path":"sprites/spr_PlayerUp/spr_PlayerUp.yy",},"order":13,},
     {"id":{"name":"obj_ColdLose","path":"objects/obj_ColdLose/obj_ColdLose.yy",},"order":12,},
     {"id":{"name":"obj_ScoreKeeper","path":"objects/obj_ScoreKeeper/obj_ScoreKeeper.yy",},"order":9,},
     {"id":{"name":"sfx_OutOfTime","path":"sounds/sfx_OutOfTime/sfx_OutOfTime.yy",},"order":4,},
@@ -24,8 +26,9 @@
     {"id":{"name":"sfx_FoodDrop","path":"sounds/sfx_FoodDrop/sfx_FoodDrop.yy",},"order":6,},
     {"id":{"name":"sfx_PlayerStep","path":"sounds/sfx_PlayerStep/sfx_PlayerStep.yy",},"order":3,},
     {"id":{"name":"spr_Button2","path":"sprites/spr_Button2/spr_Button2.yy",},"order":9,},
+    {"id":{"name":"obj_Door2","path":"objects/obj_Door2/obj_Door2.yy",},"order":14,},
     {"id":{"name":"spr_Tileset","path":"sprites/spr_Tileset/spr_Tileset.yy",},"order":0,},
-    {"id":{"name":"spr_PlayerUp","path":"sprites/spr_PlayerUp/spr_PlayerUp.yy",},"order":7,},
+    {"id":{"name":"HarvestRoom","path":"rooms/HarvestRoom/HarvestRoom.yy",},"order":3,},
     {"id":{"name":"obj_Controller","path":"objects/obj_Controller/obj_Controller.yy",},"order":0,},
     {"id":{"name":"spr_Dirt","path":"sprites/spr_Dirt/spr_Dirt.yy",},"order":3,},
     {"id":{"name":"obj_Note","path":"objects/obj_Note/obj_Note.yy",},"order":6,},
@@ -39,7 +42,6 @@
     {"id":{"name":"spr_SunWin","path":"sprites/spr_SunWin/spr_SunWin.yy",},"order":11,},
     {"id":{"name":"sfx_DoorOpen","path":"sounds/sfx_DoorOpen/sfx_DoorOpen.yy",},"order":5,},
     {"id":{"name":"obj_PlayButton","path":"objects/obj_PlayButton/obj_PlayButton.yy",},"order":7,},
-    {"id":{"name":"HarvestRoom","path":"rooms/HarvestRoom/HarvestRoom.yy",},"order":1,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -56,8 +58,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
-    {"roomId":{"name":"HarvestRoom","path":"rooms/HarvestRoom/HarvestRoom.yy",},},
     {"roomId":{"name":"EndRoom","path":"rooms/EndRoom/EndRoom.yy",},},
+    {"roomId":{"name":"HarvestRoom","path":"rooms/HarvestRoom/HarvestRoom.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},

@@ -7,9 +7,17 @@ if (instance_exists(obj_Pickup1))
 				can_use = 1;
 			}
 	}
-if (instance_exists(obj_Door))
+if (instance_exists(obj_Door1))
 	{
-		if (distance_to_object(obj_Door) <= 8)
+		if (distance_to_object(obj_Door1) <= 8)
+			{
+				can_use = 1;
+			}
+	}
+
+if (instance_exists(obj_Door2))
+	{
+		if (distance_to_object(obj_Door2) <= 8)
 			{
 				can_use = 1;
 			}
