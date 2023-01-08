@@ -1,4 +1,4 @@
-depth = -y;
+depth = -y ;
 can_use = 0;
 if (instance_exists(obj_Pickup1))
 	{

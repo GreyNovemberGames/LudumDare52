@@ -11,5 +11,5 @@ if (starve = 2)
 	}
 if (final_audio_played = 1)
 	{
-		draw_text(vx + vw/2,vy + vh - 100, "Press any key");
+		draw_text(vx + vw/2,vy + vh - 50, "Press any key");
 	}

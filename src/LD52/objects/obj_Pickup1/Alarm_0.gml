@@ -1,0 +1,1 @@
+food_value = image_index;

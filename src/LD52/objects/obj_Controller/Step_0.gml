@@ -1,6 +1,6 @@
 global.CurrentTime += 1;
 
-if (global.CurrentTime > 100000) //10,800 3 min -- 3,600 - 1 min
+if (global.CurrentTime > 300) //10,800 3 min -- 3,600 - 1 min
 	{
 		room_goto(EndRoom);
 		audio_play_sound(sfx_OutOfTime,1,0);
