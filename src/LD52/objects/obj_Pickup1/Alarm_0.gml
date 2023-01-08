@@ -1,1 +1,1 @@
-food_value = image_index;
+food_value = image_index + 10;

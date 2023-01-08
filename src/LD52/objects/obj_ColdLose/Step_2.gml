@@ -1,4 +1,4 @@
-x -= .1;
+x -= 1;
 image_alpha += .01;
 
 if (instance_exists(obj_Player))

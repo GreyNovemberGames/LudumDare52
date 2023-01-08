@@ -4,7 +4,7 @@ up    = keyboard_check(ord("W"));
 down  = keyboard_check(ord("S"));
 
 //Movement variables
-spd = 2;
+spd = 1;
 walkspd = spd;
 hspd = 0;
 vspd = 0;

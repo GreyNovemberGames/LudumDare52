@@ -4,6 +4,7 @@ draw_sprite(spr_TitleText,0,10,7);
 draw_set_color(c_white);
 draw_set_font(fnt_Big2);
 draw_set_halign(fa_center)
+draw_text(256,277, "Press ESC to return to this screen")
 if (global.ShowHelp = 1)
 	{
 		draw_sprite(spr_TextBox,0,260,128);

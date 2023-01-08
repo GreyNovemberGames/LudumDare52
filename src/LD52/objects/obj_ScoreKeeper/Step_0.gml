@@ -34,7 +34,7 @@ if (tally > global.CurrentFood)
 
 if (tally = global.CurrentFood)
 	{
-		if (global.CurrentFood >= 120)
+		if (global.CurrentFood >= 300)
 			{
 				starve = 1;
 				if (!audio_is_playing(sfx_Win) and final_audio_played = 0)

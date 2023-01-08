@@ -1,11 +1,11 @@
 global.CurrentTime += 1;
 
-if (global.CurrentTime = 7000)
+if (global.CurrentTime = 4000)
 	{
 		audio_play_sound(sfx_OutOfTime,1,0);
 		instance_create_depth(obj_Player.x,vy,-9999,obj_ColdLose);
 	}
-if (global.CurrentTime > 80) //10800 3 min -- 3600 - 1 min
+if (global.CurrentTime > 6000) //10800 3 min -- 3600 - 1 min
 	{
 		
 		audio_play_sound(sfx_OutOfTime,1,0);
