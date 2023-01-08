@@ -1,0 +1,1 @@
+global.ShowHelp = 0;
