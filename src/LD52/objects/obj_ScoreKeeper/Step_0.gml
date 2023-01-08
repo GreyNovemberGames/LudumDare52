@@ -42,6 +42,7 @@ if (tally = global.CurrentFood)
 						audio_play_sound(sfx_Win,1,0);
 						instance_create_depth(vx,vy,-9999,obj_SunWin);
 						final_audio_played = 1;
+						alarm_set(1,120);
 					}
 			}
 		else
@@ -52,8 +53,20 @@ if (tally = global.CurrentFood)
 						audio_play_sound(sfx_Lose,1,0);
 						instance_create_depth(vx,vy,-9999,obj_ColdLose);
 						final_audio_played = 1;
+						alarm_set(1,120);
 					}
 			}
 	}
 
-
+if (fade = 1 and can_fade = 1)
+	{
+		box_alpha += .01;
+	}
+if (fade = 0)
+	{
+		box_alpha = 0;
+	}
+if (box_alpha = 1 )
+	{
+		game_restart();
+	}

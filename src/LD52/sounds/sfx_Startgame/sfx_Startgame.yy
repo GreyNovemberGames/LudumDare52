@@ -4,7 +4,7 @@
   "name": "sfx_Startgame",
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.67,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_Startgame.wav",
-  "duration": 0.0,
+  "duration": 3.172585,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

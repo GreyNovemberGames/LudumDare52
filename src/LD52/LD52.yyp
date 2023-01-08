@@ -54,6 +54,7 @@
     {"id":{"name":"obj_AptRoof","path":"objects/obj_AptRoof/obj_AptRoof.yy",},"order":16,},
     {"id":{"name":"spr_Button1","path":"sprites/spr_Button1/spr_Button1.yy",},"order":6,},
     {"id":{"name":"obj_Pickup1","path":"objects/obj_Pickup1/obj_Pickup1.yy",},"order":4,},
+    {"id":{"name":"spr_Blackout","path":"sprites/spr_Blackout/spr_Blackout.yy",},"order":23,},
     {"id":{"name":"spr_Windmill","path":"sprites/spr_Windmill/spr_Windmill.yy",},"order":22,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":1,},
     {"id":{"name":"sfx_Pickup","path":"sounds/sfx_Pickup/sfx_Pickup.yy",},"order":0,},
