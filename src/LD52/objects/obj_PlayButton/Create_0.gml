@@ -1,4 +1,5 @@
 global.ShowHelp = 0;
+adjustment = 16;
 click_me = false;
 vx = view_get_xport(0);
 vy = view_get_yport(0);

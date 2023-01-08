@@ -5,3 +5,5 @@ vx = view_get_xport(0);
 vy = view_get_yport(0);
 fade = 0;
 box_alpha = 0;
+trash_cap = 150;
+trash_cd = 0;
